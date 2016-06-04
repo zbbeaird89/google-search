@@ -1,5 +1,5 @@
 /***********************************************************
-						BASE
+BASE
 ***********************************************************/
 
 * {
@@ -12,10 +12,26 @@ a {
 	text-decoration: none;
 }
 
+::-webkit-input-placeholder {
+   color: #000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #000;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #000;  
+}
+
+:-ms-input-placeholder {  
+   color: #000;  
+}
+
 
 
 /***********************************************************
-						HEADER LEFT
+HEADER LEFT
 ***********************************************************/
 
 #header {
@@ -43,9 +59,13 @@ a {
 
 .search input {
 	border: 1px solid #d9d9d9;
-	height: 40px;
-	width: 63%;
+	color: #000;
+    font-size: 1em;
+    height: 40px;
+    text-indent: 10px;
+    width: 63%;
 }
+
 
 .micro,
 .mag {
@@ -66,12 +86,12 @@ a {
 
 
 /***********************************************************
-						HEADER RIGHT
+HEADER RIGHT
 ***********************************************************/
 
 .user {
-	width: 30%;
 	text-align: right;
+	width: 30%;
 }
 
 .user li {
@@ -106,3 +126,83 @@ a {
 	position: relative;
 	top: 13px;
 }
+
+
+
+/***********************************************************
+NAVBAR
+***********************************************************/
+
+.nav-bar {
+	border-bottom: 1px solid #f1f1f1;
+	height: 60px;
+}
+
+.categories,
+.icons {
+	float: left;
+}
+
+.categories li,
+.icons a {
+	display: inline-block;
+}
+
+.categories {
+	padding-left: 130px;
+	width: 60%;
+}
+
+.categories li {
+    margin: 0 4px;
+    line-height: 60px;
+}
+
+.categories a {
+    color: #7f8894;
+    display: block;
+    font-family: sans-serif;
+    font-size: .85em;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.categories .active {
+	color: #7788f4;
+	border-bottom: 3px solid #7788f4;
+	font-weight: bold;
+}
+
+.categories i[class*="fa"] {
+	bottom: 2px;
+	position: relative;
+}
+
+.icons {
+	text-align: right;
+	width: 40%;
+}
+
+.icons a {
+    background-color: #f4f4f4;
+	border: 1px solid #dadada;
+    color: #515151;
+    margin: 15px 0;
+    padding: 5px 20px 5px;
+}
+
+.icons a:nth-child(3) {
+	margin: 0 30px 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
