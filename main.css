@@ -205,7 +205,7 @@ RESULTS SECTION
 
 .container {
 	margin-left: 142px;
-	width: 70%;
+	width: 47%;
 }
 
 #calculations,
@@ -233,6 +233,7 @@ RESULTS SECTION
 .url {
     color: #006621;
     font-family: arial, sans-serif;
+    font-size: .9em;
     margin: 4px 0;
 }
 
@@ -259,6 +260,110 @@ RElATED SECTION
 .container-related {
 	border-top: 1px solid #f1f1f1;
 	border-bottom: 1px solid #f1f1f1;
+	padding-bottom: 15px;
 }
 
-.re
+#header-related {
+	color: #878080;
+    margin: 15px 0 10px 5px;
+    font-size: 1.1em;
+    font-family: arial, sans-serif;
+}
+
+.related {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.related ul li {
+	line-height: 25px;
+}
+
+.related a {
+    color: #1a0dab;
+    font-family: arial, sans-serif;
+    font-size: .9em;
+}
+
+.related span {
+	font-weight: bold;
+
+}
+
+
+
+
+/***********************************************************
+PAGINATION
+***********************************************************/
+
+.pages {
+	padding: 25px 0 30px;
+	position: relative;
+	text-align: center;
+}
+
+.pages ul li {
+	display: inline-block;
+}
+
+.pages ul li:first-child a {
+	margin-left: 55px;
+}
+
+.page {
+    display: block;
+    width: 20px;
+    font-family: arial, sans-serif;
+    font-size: .8em;
+    color: #5990f6;
+
+}
+
+.page-active {
+	color: black;
+}
+
+.next {
+	width: 80px;
+	text-align: right;
+}
+
+.arrow {
+    color: #5990f6;
+    position: absolute;
+    top: 35px;
+    right: 145px;
+}
+
+
+
+
+/***********************************************************
+FOOTER
+***********************************************************/
+
+.footer {
+	background-color: #f1f1f1;
+	border-top: 1px solid #dadada;
+}
+
+.footer small {
+	color: #9e9e9e;
+    display: block;
+    margin: 20px 0;
+    font-family: arial, sans-serif;
+    font-size: .8em;
+}
+
+.footer a {
+	color: #77777a;
+}
+
+.footer ul li {
+	display: inline-block;
+    margin: 0 25px 15px 0;
+    font-family: arial, sans-serif;
+    font-size: .8em;
+}
