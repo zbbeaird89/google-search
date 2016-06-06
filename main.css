@@ -209,7 +209,8 @@ RESULTS SECTION
 }
 
 #calculations,
-.url + p {
+.url + p,
+.table-content {
 	font-family: sans-serif;
 	font-size: .85em;
 }
@@ -223,7 +224,8 @@ RESULTS SECTION
 	margin-bottom: 20px;
 }
 
-.results h2 a {
+.results h2 a,
+.table-header {
 	color: #1a0dab;
     display: block;
     font-size: 1.13em;
@@ -242,13 +244,44 @@ RESULTS SECTION
 	font-weight: bold;
 }
 
-.url + p {
+.url + p,
+.table-content {
 	color: #545454;
 }
 
 .url + p span {
 	color: #6a6a6a;
 	font-weight: bold;
+}
+
+.table {
+	border-bottom: 1px solid #f1f1f1;
+	display: block;
+}
+
+.table-header,
+.table-content,
+.table-link {
+	margin-left: 30px;
+}
+
+.table-header {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 90%;
+}
+
+.table-content {
+	width: 70%;
+	line-height: 18px;
+}
+
+.table-link {
+	display: block;
+	color: #1a0dab; 
+	margin-top: 10px;
+	font-family: arial, sans-serif;
+	font-size: .8em;
 }
 
 
