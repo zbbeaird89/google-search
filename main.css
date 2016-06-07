@@ -80,7 +80,7 @@ HEADER LEFT
 }
 
 .mag {
-	top: 10px;
+	top: 9px;
 }
 
 
@@ -210,7 +210,8 @@ RESULTS SECTION
 
 #calculations,
 .url + p,
-.table-content {
+.table-content,
+.date {
 	font-family: sans-serif;
 	font-size: .85em;
 }
@@ -249,9 +250,18 @@ RESULTS SECTION
 	color: #545454;
 }
 
-.url + p span {
+.url + p,
+.date {
+	line-height: 18px;
+}
+
+.bold {
 	color: #6a6a6a;
 	font-weight: bold;
+}
+
+.date {
+	color: #8387a7;
 }
 
 .table {
@@ -278,7 +288,8 @@ RESULTS SECTION
 
 .table-link {
 	display: block;
-	color: #1a0dab; 
+	color: #1a0dab;
+	margin-bottom: 25px; 
 	margin-top: 10px;
 	font-family: arial, sans-serif;
 	font-size: .8em;
